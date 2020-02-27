@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  enum_class:
+  enumerated_class:
     path: ..
 
 dev_dependencies:

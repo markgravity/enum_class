@@ -1,4 +1,4 @@
-import 'package:enum_class/enum_class.dart';
+import 'package:enumerated_class/enumerated_class.dart';
 
 class GameType extends Enum<int> {
   // Add factory when you want to create from raw value

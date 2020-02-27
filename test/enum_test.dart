@@ -1,4 +1,4 @@
-import 'package:enum_class/enum_class.dart';
+import 'package:enumerated_class/enumerated_class.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class StringEnum extends Enum<String> {
