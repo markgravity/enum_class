@@ -9,7 +9,7 @@ abstract class Enum<R> {
   String toString() => super.toString()+"(${rawValue.toString()})";
 
   // Return an enum case that has a rawValue equals to 'rawValue'
-  static factory(values, rawValue) {
+  static T factory<T>(values, rawValue) {
     assert(values is List, "The 'values' should be a list of enum cases");
     assert(values.length > 0, "The 'values' is empty");
 
